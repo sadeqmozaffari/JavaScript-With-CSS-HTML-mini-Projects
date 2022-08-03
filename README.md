@@ -1,7 +1,7 @@
 # JavaScript-Projects
 JavaScript Projects: Todo App, Clock Alarm, QR Code
 
-#clock Alarm With Js
+# clock Alarm With Js
 ![Screenshot](/clock/clock.png)
 
 
