@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #b953d1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+.container{
+    margin-top: 40px;
+    width: 400px;
+    background-color: #fff;
+    padding:50px 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+form{
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+form :where(input, button){
+  display: block;
+  padding: 15px 30px;
+  border:none;
+  border-radius: 5px;
+    width: 100%;
+    outline: 0;
+
+}
+input{
+    width: 85%;
+    border:1px solid #b953d1;
+}
+
+.container form button{
+    color: white;
+    background-color: #b953d1;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.qr-code{
+    margin-top: 30px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border:1px solid;
+}
+.hidden{
+    display: none;
+}
