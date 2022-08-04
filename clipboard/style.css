@@ -1,0 +1,40 @@
+body{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    background-color: rgba(88, 153, 232, 0.895);
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+::selection{
+    background-color: rgba(88, 153, 232, 0.895);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    justify-content: center;
+    margin:50px auto;
+    background-color: white;
+    text-align: center;
+    padding: 40px;
+    border-radius: 15px;
+    gap: 10px;
+}
+.container :where(textarea,button){
+    padding: 20px 5px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+
+}
+.container textarea{
+    border: 2px solid lightblue;
+}
+.container button{
+    background-color: lightblue;
+    font-size: 15px;
+    font-weight: bold;
+    transition: all 1sec;
+    cursor: pointer;
+}
