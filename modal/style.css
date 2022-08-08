@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    display: flex;
+    background-color: #1b70f0ab;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+}
+.btn-modal{
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: 0;
+    border: none;
+    color: white;
+    background-color: lightseagreen;
+    cursor: pointer;
+    box-shadow: 1px 10px 10px #38615b;
+}
+
+.container-modal{
+    display: none;
+    padding: 40px;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left:0;
+    background-color: transparent;
+   animation: modalAnimation 1.5s;
+}
+.card{
+    width: 40%;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    background-color: white;
+    box-shadow: 1px 10px 10px #40083f;
+    border-radius: 5px;
+   
+}
+.card-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1b70f0ab;
+    padding:5px 10px;
+    color:white;
+ 
+}
+.card-body{
+    padding: 20px;
+  
+}
+.card-body p{
+    line-height: 15px;
+    text-align: justify;
+    line-height: 20px;
+}
+.card-footer{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.footer-close{
+    background-color: red;
+    color:white;
+    outline: 0;
+    border-radius: 5px;
+    border: none;
+    padding:7px 15px;
+    cursor: pointer;
+}
+.footer-save{
+    background-color: green;
+    color:white;
+    outline: 0;
+    border-radius: 5px;
+    border: none;
+    padding:7px 15px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.close{
+    cursor: pointer;
+
+}
+.close:hover{
+    color: black;
+    cursor: pointer;
+}
+@keyframes modalAnimation {
+    0%{
+        margin-top: -700px;
+        opacity: 0;
+    }
+    100%{
+        margin-top: 0px;
+        opacity: 1;
+    }
+    
+}

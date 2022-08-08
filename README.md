@@ -13,3 +13,6 @@ JavaScript Projects: Todo App, Clock Alarm, QR Code, Copy to Clipboard
 
 # Copy to clipboard With Js
 ![Screenshot](/clipboard/clipboard.png)
+
+# Modal With Js
+![Screenshot](/modal/modal.png)
