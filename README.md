@@ -8,7 +8,7 @@ JavaScript Projects: Todo App, Clock Alarm, QR Code, Copy to Clipboard
 # Todo app With Js
 ![Screenshot](/todo/todo.png)
 
-# QR Code With Js
+# QR Code API With Js
 ![Screenshot](/qrcode/qrCode.png)
 
 # Copy to clipboard With Js
