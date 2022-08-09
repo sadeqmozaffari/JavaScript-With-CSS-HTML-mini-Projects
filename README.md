@@ -1,5 +1,5 @@
 # JavaScript-Projects
-JavaScript Projects: Todo App, Clock Alarm, QR Code, Copy to Clipboard
+JavaScript Projects: Todo App, Clock Alarm, QR Code, Copy to Clipboard, Modal
 
 # clock Alarm With Js
 ![Screenshot](/clock/clock.png)
