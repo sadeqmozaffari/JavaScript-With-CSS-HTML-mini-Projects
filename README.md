@@ -1,5 +1,4 @@
 # JavaScript-Projects with Html & css designs
-==============================================
 JavaScript Projects: Todo App, Clock Alarm, QR Code, Copy to Clipboard, Modal
 
 # clock Alarm With Js
