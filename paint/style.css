@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.layout{
+  width: 500px;
+  height: 400px;
+  background-color: wheat;
+  display: flex;
+  margin: auto;
+  margin-top: 40px;
+  
+}
+.container {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+
+}
+.tools-bar{
+  padding: 0px;
+  width: 100%;
+  height: 40px;
+  border-bottom: 1px solid #e6d9d9;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.paint-area{
+  width: 100%;
+  height: 100%;
+  background-color: white;
+
+}
+.btn{
+  padding: 4px;
+  border: none;
+  outline: none;
+  background-color: white;
+  cursor: pointer;
+}
+.save{
+  background-color: rgb(4, 153, 233);
+  color: white;
+}
+input[type="color"]{
+  width: 20px;
+  height: 20px;
+  background-color: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+canvas{
+  width: 100%;
+  height: 100%;
+}
+.active{
+background-color: aqua;
+}

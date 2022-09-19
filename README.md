@@ -25,3 +25,6 @@ JavaScript Projects: Todo App, Clock Alarm, QR Code, Copy to Clipboard, Modal
 
 # Design Html & Css
 ![Screenshot](/Design3/design3.png)
+
+# Paint JS 
+![Screenshot](/paint/paint.png)
