@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.light {
+  background-color: #fff;
+  color: #2C3E50;
+}
+
+.dark {
+  background-color: #2C3E50;
+  color: #fff;
+}
+
+.container {
+  width: 80%;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+  gap: 20px;
+}
+.container .title {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.container .flex-wrapper {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 5px;
+  width: 100%;
+  padding-bottom: 30px;
+}
+.container .flex-wrapper .inputTask {
+  padding: 20px 20px;
+  border-radius: 5px;
+  outline: none;
+}
+.container .flex-wrapper .btnAdd {
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.container .taskList .list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.container .taskList .list .flex-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid;
+  width: 100%;
+  text-align: center;
+}
+.container .taskList .list .flex-row span {
+  width: 100%;
+  padding: 0px 30px;
+  margin: 0px 10px;
+}
+.container .taskList .list .flex-row button {
+  padding: 5px 10px;
+  background-color: red;
+  color: #fff;
+  border: none;
+}/*# sourceMappingURL=style.css.map */
